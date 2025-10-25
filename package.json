@@ -1,0 +1,32 @@
+{
+	"name": "njs_cms_core",
+	"description": "DBレスCMSのコアモジュール / Core module of DB-less CMS",
+
+	"version": "0.0.1",
+
+	"type": "module",
+
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": "./dist/index.js",
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/itc-s24004/NJS_CMS_Core.git"
+	},
+	"keywords": ["node", "cms", "db-less"],
+
+
+	"scripts": {
+		"build": "tsc -d",
+		"test:ts": "tsx src/_test.ts",
+		"test:js": "node dist/_test.js"
+	},
+	"dependencies": {
+		"@tsconfig/node-lts": "^22.0.2",
+		"@types/mime-types": "^3.0.1",
+		"@types/node": "^24.9.1",
+		"mime-types": "^3.0.1",
+		"typescript": "5.9.3"
+	}
+}

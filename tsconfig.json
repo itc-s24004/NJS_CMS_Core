@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "declaration": true,
+
+    "esModuleInterop": true,
+
+
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "allowArbitraryExtensions": false,
+
+
+    "outDir": "dist",
+    "rootDir": "src",
+    
+  },
+  "include": ["src"],
+  "exclude": ["src/data"]
+}
