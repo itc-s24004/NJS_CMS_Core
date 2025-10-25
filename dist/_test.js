@@ -1,5 +1,5 @@
 import path from "path";
-import { NJS_CMS } from "./index.js";
+import { NJS_CMS } from "./main.js";
 const __dirname = import.meta.dirname;
 const CMS_RootDir = path.join(__dirname, "data");
 const cms = new NJS_CMS(CMS_RootDir);
